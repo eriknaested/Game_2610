@@ -15,6 +15,7 @@ public class Main {
         Game g = new Game("Yatzy",6);
         g.registerPlayers();
         g.displayPlayers();
+        g.endSession();
 
 
     }

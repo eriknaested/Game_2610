@@ -21,9 +21,11 @@ public class Game {
     public void startSession() {
         try {
             ArrayList<String> data = io.readData(path);
-            data 
 
-        } catch (FileNotFoundException)
+
+        } catch (FileNotFoundException e ) {
+
+        }
     }
 
     public void registerPlayers(){
